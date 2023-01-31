@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/custom_spinner_list_padding"
+    android:textColor="@color/white"
+    android:fontFamily="@font/outfit_regular"
+    android:textSize="@dimen/custom_spinner_list_text_size"
+    android:background="@drawable/option_selected_drop_down_border"
+    android:alpha="@dimen/custom_spinner_list_text_alpha"
+    android:hint="Brand"
+    android:textColorHighlight="@color/white"
+    android:textStyle="normal" />

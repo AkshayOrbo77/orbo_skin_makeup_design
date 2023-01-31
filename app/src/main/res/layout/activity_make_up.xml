@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/makeup_goal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/makeup_goal_layout_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/primary_color"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/makeup_goal_home_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/makeup_goal_home_layout_height"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/makeup_goal_home_layout_margin_start"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/makeup_goal_layout1_home_img_view"
+                android:layout_width="@dimen/makeup_goal_home_layout_home_img_view_width"
+                android:layout_height="@dimen/makeup_goal_home_layout_home_img_view_height"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/makeup_goal_home_layout_home_img_view_margin"
+                android:background="@drawable/icon_shape_background"
+                android:padding="@dimen/makeup_goal_home_layout_home_img_view_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_home" />
+
+            <TextView
+                android:id="@+id/makeup_goal_layout1_home_text_view"
+                android:layout_width="@dimen/makeup_goal_home_layout_home_text_view_width"
+                android:layout_height="@dimen/makeup_goal_home_layout_home_text_view_height"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/makeup_goal_home_layout_home_text_view_margin_start"
+                android:layout_marginTop="@dimen/makeup_goal_home_layout_home_text_view_margin_top"
+                android:fontFamily="@font/outfit_regular"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textColor="@color/white"
+                android:textSize="@dimen/makeup_goal_home_layout_home_text_view_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/makeup_goal_layout_heading"
+            android:layout_width="@dimen/makeup_goal_layout_heading_text_width"
+            android:layout_height="@dimen/makeup_goal_layout_heading_text_height"
+            android:text="@string/makeup_activity_headline"
+            android:textColor="@color/white"
+            android:textSize="@dimen/makeup_goal_layout_heading_text_size"
+            android:fontFamily="@font/outfit_regular"
+            android:layout_marginTop="@dimen/makeup_goal_layout_heading_text_margin_top"
+            android:textAlignment="center"
+            />
+
+        <RelativeLayout
+            android:id="@+id/makeup_goal_save_look_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/makeup_goal_save_look_layout_height"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/makeup_goal_save_look_layout_margin_start"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/makeup_goal_layout_save_look_img_view"
+                android:layout_width="@dimen/makeup_goal_layout_save_look_img_view_width"
+                android:layout_height="@dimen/makeup_goal_layout_save_look_img_view_height"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/makeup_goal_layout_save_look_img_view_margin"
+                android:layout_marginTop="@dimen/makeup_goal_layout_save_look_img_view_margin"
+                android:layout_marginEnd="@dimen/makeup_goal_layout_save_look_img_view_margin"
+                android:layout_marginBottom="@dimen/makeup_goal_layout_save_look_img_view_margin"
+                android:background="@drawable/icon_shape_background"
+                android:padding="@dimen/makeup_goal_layout_save_look_img_view_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_save_look" />
+
+            <TextView
+                android:id="@+id/makeup_goal_layout_save_look_text_view"
+                android:layout_width="@dimen/makeup_goal_layout_save_look_text_view_width"
+                android:layout_height="@dimen/makeup_goal_layout_heading_text_height"
+                android:text="@string/save_look"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/makeup_goal_layout_save_look_text_view_margin_top"
+                android:layout_marginStart="@dimen/makeup_goal_layout_save_look_text_view_margin_start"
+                android:textSize="@dimen/makeup_goal_layout_save_look_text_view_margin_text_size"
+                android:fontFamily="@font/outfit_regular"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+         android:id="@+id/makeup_goal_wishlist_layout"
+         android:layout_width="wrap_content"
+         android:layout_height="@dimen/makeup_goal_wishlist_layout_height"
+         android:orientation="vertical"
+         android:layout_marginStart="@dimen/makeup_goal_wishlist_layout_margin_start"
+         android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/makeup_goal_layout_wishlist_img_view"
+            android:layout_width="@dimen/makeup_goal_layout_wishlist_img_view_width"
+            android:layout_height="@dimen/makeup_goal_layout_wishlist_img_view_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/makeup_goal_layout_wishlist_img_view_margin"
+            android:background="@drawable/icon_shape_background"
+            android:padding="@dimen/makeup_goal_layout_wishlist_img_view_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_wishlist" />
+
+        <TextView
+            android:id="@+id/makeup_goal_layout_wishlist_text_view"
+            android:layout_width="@dimen/makeup_goal_layout_wishlist_text_view_width"
+            android:layout_height="@dimen/makeup_goal_layout_wishlist_text_view_height"
+            android:text="@string/wishlist"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/makeup_goal_layout_wishlist_text_view_margin_top"
+            android:layout_marginStart="@dimen/makeup_goal_layout_wishlist_text_view_margin_start"
+            android:textSize="@dimen/makeup_goal_layout_wishlist_text_view_size"
+            android:fontFamily="@font/outfit_regular" />
+    </RelativeLayout>
+
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/image_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:alpha="@dimen/makeup_goal_layout_image_view_layout_alpha_value"
+        android:layout_marginTop="@dimen/makeup_goal_layout_image_view_layout_margin_top"
+        app:layout_constraintBottom_toBottomOf="@+id/makeup_goal_layout"
+        android:background="@color/image_view_bg_color">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/face_img" />
+
+        <LinearLayout
+            android:id="@+id/makeup_goal_sidebar_layout"
+            android:layout_width="@dimen/makeup_goal_sidebar_layout_width"
+            android:layout_height="@dimen/makeup_goal_sidebar_layout_height"
+            android:background="@color/primary_color"
+            android:alpha="@dimen/makeup_goal_sidebar_layout_alpha"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/makeup_goal_sidebar_layout_margin_start">
+
+            <RelativeLayout
+                android:layout_width="@dimen/makeup_goal_layout_spinner_width"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/feature_spinner"
+                    android:layout_width="@dimen/makeup_goal_layout3_spinner2_width"
+                    android:layout_height="@dimen/makeup_goal_layout3_spinner2_height"
+                    android:layout_marginStart="@dimen/makeup_goal_layout3_spinner2_margin_start"
+                    android:layout_marginTop="@dimen/makeup_goal_layout3_spinner2_margin_top"
+                    android:alpha="@dimen/makeup_goal_layout3_spinner2_alpha"
+                    android:layout_marginEnd="@dimen/makeup_goal_layout3_spinner_margin"
+                    android:layout_marginBottom="@dimen/makeup_goal_layout3_spinner_margin"
+                    android:background="@drawable/option_deselected_drop_down_button" />
+
+                <ImageView
+                    android:id="@+id/dropdown_button2"
+                    android:layout_width="@dimen/makeup_goal_layout3_dropdown_button_width"
+                    android:layout_height="@dimen/makeup_goal_layout3_dropdown_button_height"
+                    android:layout_marginTop="@dimen/makeup_goal_layout3_dropdown_button_margin_top"
+                    android:layout_marginLeft="@dimen/makeup_goal_layout3_dropdown_button_margin_left"
+                    android:src="@drawable/btn" />
+
+                <LinearLayout
+                    android:id="@+id/populate_feature_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/feature_spinner">
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/makeup_goal_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/makeup_goal_layout3_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/primary_color"
+        android:alpha="@dimen/makeup_goal_layout3_alpha_value"
+        android:orientation="horizontal">
+
+           <RelativeLayout
+               android:layout_width="@dimen/makeup_goal_layout_spinner_width"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <Spinner
+                   android:id="@+id/brand_spinner"
+                   android:layout_width="@dimen/makeup_goal_layout3_spinner_width"
+                   android:layout_height="@dimen/makeup_goal_layout3_spinner_height"
+                   android:layout_marginStart="@dimen/makeup_goal_layout3_spinner_margin"
+                   android:layout_marginTop="@dimen/makeup_goal_layout3_spinner_margin"
+                   android:layout_marginEnd="@dimen/makeup_goal_layout3_spinner_margin"
+                   android:layout_marginBottom="@dimen/makeup_goal_layout3_spinner_margin"
+                   android:entries="@array/brand_list"
+                   android:dropDownVerticalOffset="@dimen/makeup_goal_layout3_spinner_dropDown_vertical_offset"
+                   android:background="@drawable/option_deselected_drop_down_button"/>
+
+               <ImageView
+                   android:id="@+id/dropdown_button"
+                   android:layout_width="@dimen/drop_down_button_width"
+                   android:layout_height="@dimen/drop_down_button_height"
+                   android:layout_marginTop="@dimen/drop_down_button_marginTop"
+                   android:layout_marginStart="@dimen/drop_down_button_marginStart"
+                   android:src="@drawable/btn"/>
+
+           </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

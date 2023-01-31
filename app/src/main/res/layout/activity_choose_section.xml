@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/choose_section_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/choose_section_headline_marginTop"
+        android:text="@string/choose_activity_headline"
+        android:fontFamily="@font/outfit_semi_bold"
+        android:textSize="@dimen/choose_section_headline_textSize"
+        android:textColor="@color/primary_color"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/choose_hair"
+        android:layout_width="@dimen/choose_section_option_textView_width"
+        android:layout_height="@dimen/choose_section_option_textView_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/choose_section_headline"
+        app:layout_constraintBottom_toBottomOf="@id/choose_skin"
+        android:gravity="center"
+        android:text="@string/choose_hair"
+        android:fontFamily="@font/outfit_regular"
+        android:textSize="@dimen/choose_section_option_textSize"
+        android:textColor="@drawable/choose_section_selector"
+        android:background="@drawable/choose_section_selector"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/choose_skin"
+        android:layout_width="@dimen/choose_section_option_textView_width"
+        android:layout_height="@dimen/choose_section_option_textView_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/choose_hair"
+        app:layout_constraintBottom_toBottomOf="@id/choose_makeup"
+        android:gravity="center"
+        android:text="@string/choose_skin"
+        android:fontFamily="@font/outfit_regular"
+        android:textSize="@dimen/choose_section_option_textSize"
+        android:textColor="@drawable/choose_section_selector"
+        android:background="@drawable/choose_section_selector"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/choose_makeup"
+        android:layout_width="@dimen/choose_section_option_textView_width"
+        android:layout_height="@dimen/choose_section_option_textView_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/choose_skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:text="@string/choose_makeup"
+        android:fontFamily="@font/outfit_regular"
+        android:textSize="@dimen/choose_section_option_textSize"
+        android:textColor="@drawable/choose_section_selector"
+        android:background="@drawable/choose_section_selector"
+        android:onClick="onClick"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

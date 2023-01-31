@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">OrboMakeUp</string>
+
+<!--    Choose Activity layout Strings-->
+    <string name="choose_activity_headline">What are you Looking for? </string>
+    <string name="choose_hair">Hair</string>
+    <string name="choose_skin">Skin</string>
+    <string name="choose_makeup">Makeup</string>
+
+<!--    Choose Activity2 layout Strings-->
+    <string name="choose_activity2_headline">What are you Looking for? </string>
+    <string name="choose_face">Face</string>
+    <string name="choose_eyes">Eyes</string>
+    <string name="choose_lips">Lips</string>
+
+
+
+<!--    MakeupActivity layout String-->
+    <string name="makeup_activity_headline">Virtual Makeup</string>
+    <string name="home">Home</string>
+    <string name="save_look">save look</string>
+    <string name="wishlist">wishlist</string>
+
+    <string-array name="brand_list">
+        <item>"L'Oreal"</item>
+        <item>MAC</item>
+        <item>Maybelline</item>
+        <item>Colorbar</item>
+        <item>Revlon</item>
+        <item>Lakme</item>
+
+    </string-array>
+
+
+    <string-array name="feature_list">
+        <item>ALL</item>
+        <item>Face</item>
+        <item>Eyes</item>
+        <item>Lips</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="rectangle">
+
+<stroke
+    android:width="@dimen/choose_section_option_selected_width"
+    android:color="@color/secondary_color"/>
+<corners android:radius="@dimen/choose_section_option_selected_radius"/>
+
+<solid
+    android:color="@color/secondary_color_light"
+    />
+
+</shape>

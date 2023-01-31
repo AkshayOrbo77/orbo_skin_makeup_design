@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    Choose Section Activity dimens start -->
+    <dimen name="choose_section_headline_textSize">22sp</dimen>
+    <dimen name="choose_section_headline_marginTop">70dp</dimen>
+    <dimen name="choose_section_option_textSize">20sp</dimen>
+    <dimen name="choose_section_option_textView_width">120dp</dimen>
+    <dimen name="choose_section_option_textView_height">100dp</dimen>
+
+<!--    selector dimens start-->
+
+    <dimen name="choose_section_option_selected_width">1dp</dimen>
+    <dimen name="choose_section_option_selected_radius">10dp</dimen>
+
+    <dimen name="drop_down_background_stroke_width">0.7dp</dimen>
+<!--    selector dimens End-->
+
+<!--    Choose Section Activity dimens End -->
+
+
+<!--   Choose Section Activity2 dimens start-->
+
+    <dimen name="choose_section2_headline_textSize">22sp</dimen>
+    <dimen name="choose_section2_headline_marginTop">70dp</dimen>
+    <dimen name="choose_section2_option_textSize">20sp</dimen>
+    <dimen name="choose_section2_option_textView_width">120dp</dimen>
+    <dimen name="choose_section2_option_textView_height">100dp</dimen>
+
+<!--    selector dimens start-->
+    <dimen name="choose_section2_option_selected_width">1dp</dimen>
+    <dimen name="choose_section2_option_selected_radius">10dp</dimen>
+<!--    selector dimens End-->
+
+<!--   Choose Section Activity2 dimens End -->
+
+
+<!--    MakeUp Activity dimens start -->
+
+    <dimen name="makeup_goal_layout_height">90dp</dimen>
+
+
+<!--    MakeUp Activity Home layout dimens start-->
+
+    <dimen name="makeup_goal_home_layout_height">80dp</dimen>
+    <dimen name="makeup_goal_home_layout_margin_start">8dp</dimen>
+
+    <dimen name="makeup_goal_home_layout_home_img_view_width">45dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_img_view_height">45dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_img_view_margin">10dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_img_view_padding">8dp</dimen>
+
+    <dimen name="makeup_goal_home_layout_home_text_view_width">45dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_text_view_height">15dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_text_view_margin_top">58dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_text_view_margin_start">10dp</dimen>
+    <dimen name="makeup_goal_home_layout_home_text_view_size">12sp</dimen>
+
+<!--    MakeUp Activity Home Layout1 dimens End-->
+
+
+<!--    MakeUp Activity Text Heading dimens start-->
+
+    <dimen name="makeup_goal_layout_heading_text_width">165dp</dimen>
+    <dimen name="makeup_goal_layout_heading_text_height">30dp</dimen>
+    <dimen name="makeup_goal_layout_heading_text_size">18sp</dimen>
+    <dimen name="makeup_goal_layout_heading_text_margin_top">30dp</dimen>
+
+<!--    MakeUp Activity Text Heading dimens End -->
+
+
+<!--    MakeUp Activity Save Look dimens Start -->
+
+    <dimen name="makeup_goal_save_look_layout_height">80dp</dimen>
+    <dimen name="makeup_goal_save_look_layout_margin_start">10dp</dimen>
+
+    <dimen name="makeup_goal_layout_save_look_img_view_width">45dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_img_view_height">45dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_img_view_margin">10dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_img_view_padding">8dp</dimen>
+
+
+    <dimen name="makeup_goal_layout_save_look_text_view_width">55dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_text_view_height">15dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_text_view_margin_top">52dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_text_view_margin_start">5dp</dimen>
+    <dimen name="makeup_goal_layout_save_look_text_view_margin_text_size">12sp</dimen>
+
+<!--    MakeUp Activity Save Look dimens End -->
+
+<!--    MakeUp Activity Wishlist Look dimens Start-->
+
+
+    <dimen name="makeup_goal_wishlist_layout_height">80dp</dimen>
+    <dimen name="makeup_goal_wishlist_layout_margin_start">0dp</dimen>
+
+    <dimen name="makeup_goal_layout_wishlist_img_view_width">45dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_img_view_height">45dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_img_view_margin">10dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_img_view_padding">8dp</dimen>
+
+    <dimen name="makeup_goal_layout_wishlist_text_view_width">45dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_text_view_height">15dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_text_view_margin_top">58dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_text_view_margin_start">10dp</dimen>
+    <dimen name="makeup_goal_layout_wishlist_text_view_size">12sp</dimen>
+
+<!--    MakeUp Activity Wishlist Look dimens End-->
+
+<!--     MakeUp Activity ImageView start-->
+    <dimen name="makeup_goal_layout_image_view_layout_margin_top">90dp</dimen>
+    <dimen name="makeup_goal_layout_image_view_layout_alpha_value">1.0</dimen>
+<!--     MakeUp Activity ImageView End-->
+
+
+
+    <dimen name="makeup_goal_layout3_width">98dp</dimen>
+    <dimen name="makeup_goal_layout3_height">90dp</dimen>
+    <dimen name="makeup_goal_layout3_alpha_value">0.7</dimen>
+
+
+    <dimen name="makeup_goal_layout3_spinner_width">102dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner_height">40dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner_margin">25dp</dimen>
+
+    <dimen name="custom_spinner_list_padding">10dp</dimen>
+    <dimen name="custom_spinner_list_text_size">17sp</dimen>
+    <dimen name="custom_spinner_list_text_alpha">0.8</dimen>
+    <dimen name="makeup_goal_layout_spinner_width">150dp</dimen>
+
+    <dimen name="drop_down_button_width">10dp</dimen>
+    <dimen name="drop_down_button_height">12dp</dimen>
+    <dimen name="drop_down_button_marginTop">42dp</dimen>
+    <dimen name="drop_down_button_marginStart">111dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner2_margin_start">5dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner2_margin_top">0dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner2_alpha">1.0</dimen>
+    <dimen name="makeup_goal_sidebar_layout_width">140dp</dimen>
+    <dimen name="makeup_goal_sidebar_layout_height">602dp</dimen>
+
+    <dimen name="makeup_goal_sidebar_layout_alpha">0.7</dimen>
+    <dimen name="makeup_goal_sidebar_layout_margin_start">302dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner2_height">40dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner2_width">72dp</dimen>
+    <dimen name="makeup_goal_layout3_dropdown_button_width">10dp</dimen>
+    <dimen name="makeup_goal_layout3_dropdown_button_height">10dp</dimen>
+    <dimen name="makeup_goal_layout3_dropdown_button_margin_top">17dp</dimen>
+    <dimen name="makeup_goal_layout3_dropdown_button_margin_left">60dp</dimen>
+    <dimen name="makeup_goal_layout3_spinner_dropDown_vertical_offset">40dp</dimen>
+
+
+    <!--    MakeUp Activity dimens End-->
+
+
+</resources>
